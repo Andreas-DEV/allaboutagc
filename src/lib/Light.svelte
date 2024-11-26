@@ -85,7 +85,7 @@
         <!-- Projects -->
         <div class="mb-10">
             <h2
-                class="font-medium text-3xl sm:text-4xl px-4 sm:px-0 select-none md:mt-0 mt-6"
+                class="font-medium text-3xl sm:text-4xl px-4 sm:px-0 select-none md:mt-0 mt-"
             >
                 Projects
             </h2>
@@ -106,7 +106,7 @@
                             target="_blank"
                         >
                             <h2
-                                class="text-2xl sm:text-3xl text-blue-950 font-bold"
+                                class="text-[1rem] sm:text-3xl text-blue-950 font-bold"
                             >
                                 Stroem
                             </h2>
@@ -140,7 +140,7 @@
                             target="_blank"
                         >
                             <h2
-                                class="text-2xl sm:text-3xl text-blue-950 font-bold"
+                                class="text-[1rem] sm:text-3xl text-blue-950 font-bold"
                             >
                                 CivilTjek
                             </h2>
@@ -185,7 +185,7 @@
                             target="_blank"
                         >
                             <h2
-                                class="text-2xl sm:text-3xl text-blue-950 font-bold"
+                                class="text-[1rem] sm:text-3xl text-blue-950 font-bold"
                             >
                                 Grønbech Revision
                             </h2>
@@ -231,7 +231,7 @@
                             target="_blank"
                         >
                             <h2
-                                class="text-2xl sm:text-3xl text-blue-950 font-bold"
+                                class="text-[1rem] sm:text-3xl text-blue-950 font-bold"
                             >
                                 Dansk Super Rally
                             </h2>
