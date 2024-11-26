@@ -122,7 +122,7 @@
                         </div>
                     </div>
                     </div>
-                    <p>Mit eksamens projekt, som jeg fik et 12 for.</p>
+                    <p>Mit eksamens projekt, som jeg fik et 12 tal for.</p>
                 </div>
 
                 <!-- Project 02 -->
