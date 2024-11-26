@@ -163,7 +163,7 @@
                     <div class="flex items-center">
                         <a
                             target="_blank"
-                            class="hover:underline border flex px-2 pt-1 rounded-lg"
+                            class="hover:underline hover:shadow-md border flex px-2 pt-1 rounded-lg"
                             href="https://civil-tjek.vercel.app/"
                             >Live Site <Icon class="ml-1" icon="majesticons:open" /></a
                         >
@@ -209,7 +209,7 @@
                     <div class="flex items-center">
                         <a
                             target="_blank"
-                            class="hover:underline border flex px-2 pt-1 rounded-lg"
+                            class="hover:underline border hover:shadow-md flex px-2 pt-1 rounded-lg"
                             href="https://www.gronbechrevision.dk/"
                             >Live Site <Icon class="ml-1" icon="majesticons:open" /></a
                         >
@@ -255,7 +255,7 @@
                     <div class="flex items-center">
                         <a
                             target="_blank"
-                            class="hover:underline border flex px-2 pt-1 rounded-lg"
+                            class="hover:underline hover:shadow-md border flex px-2 pt-1 rounded-lg"
                             href="https://www.dansksuperrally.dk/"
                             >Live Site <Icon class="ml-1" icon="majesticons:open" /></a
                         >
