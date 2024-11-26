@@ -39,14 +39,7 @@
                 <p class="text-sm">
                     Jeg er en Full-stack Webudvikler fra Silkeborg
                 </p>
-                <!-- socials -->
-            <!-- <div class="flex md:py-0 pt-3 items-center gap-1">
-                <div class="flex items-center">
-
-                    <a class="text-black hover:text-blue-950" href="https://github.com/Andreas-DEV" target="_blank"><Github class="w-5 h-5" /></a>
-                    <a class="text-black hover:text-blue-950" href="https://www.linkedin.com/in/andreas-gr%C3%B8nbech-christensen-2497002b6/" target="_blank"><Linkedin class="w-5 h-5" /></a>
-                </div>
-            </div> -->
+               
             </div>
             <div>
 
@@ -83,9 +76,9 @@
         </section>
 
         <!-- Projects -->
-        <div class="mb-10">
+        <div class="mb-10 mt-14 md:-mt-5">
             <h2
-                class="font-medium text-3xl sm:text-4xl px-4 sm:px-0 select-none md:mt-0 mt-"
+                class="font-medium text-3xl sm:text-4xl px-4 sm:px-0 select-none md:mt-0"
             >
                 Projects
             </h2>
@@ -144,7 +137,7 @@
                             >
                                 CivilTjek
                             </h2>
-                            <Github class="w-6 h-6 sm:w-7 sm:h-7" />
+                            <Github class="w-6 h-6 sm:w-7 sm:h-7 hover:text-blue-950" />
                             <span
                                 class="absolute bottom-0 left-0 h-[2px] w-0 bg-blue-950 transition-all duration-300 ease-out group-hover:w-full"
                             ></span>
