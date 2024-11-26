@@ -5,7 +5,7 @@
     import UdBevis from "$lib/files/Uddannelses_Bevis.pdf"
 </script>
 
-<section class="max-w-screen-sm mx-auto">
+<section class="max-w-screen-sm mx-auto mb-40">
     <Light />
 
     <div class="px-4 sm:px-6">
@@ -23,7 +23,7 @@
                 </div>
             </div>
     
-            <div class="px-6 sm:px-16 py-3 sm:py-2">
+            <div class="px-6 sm:px-16 ">
                 <div class="flex flex-col sm:flex-row sm:items-center gap-2">
                     <a 
                         href="https://www.aarhustech.dk/" 

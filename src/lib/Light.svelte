@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Sun, Moon, Github } from "lucide-svelte";
+    import { Sun, Moon, Github, Linkedin } from "lucide-svelte";
     import Icon from "@iconify/svelte";
     import mig from "$lib/media/image6.jpeg";
 
@@ -28,46 +28,64 @@
     <main class="max-w-screen-sm mx-auto px-4 sm:px-6">
         <!-- Hero Section -->
         <section
-            class="flex flex-col sm:flex-row justify-evenly items-center py-6 sm:py-10 gap-6 sm:gap-0"
+            class="flex flex-col sm:flex-row justify-evenly items-center  sm:py-10 gap-6 sm:gap-0"
         >
             <div
                 class="text-darkCol text-center sm:text-left hover:cursor-default"
             >
-                <h1 class="text-xl sm:text-2xl title">
+                <h1 class="text-xl sm:text-2xl title sm:mt-0 mt-5">
                     Hej, mit navn er Andreas!<span class="wave">👋</span>
                 </h1>
                 <p class="text-sm">
                     Jeg er en Full-stack Webudvikler fra Silkeborg
                 </p>
+                <!-- socials -->
+            <!-- <div class="flex md:py-0 pt-3 items-center gap-1">
+                <div class="flex items-center">
+
+                    <a class="text-black hover:text-blue-950" href="https://github.com/Andreas-DEV" target="_blank"><Github class="w-5 h-5" /></a>
+                    <a class="text-black hover:text-blue-950" href="https://www.linkedin.com/in/andreas-gr%C3%B8nbech-christensen-2497002b6/" target="_blank"><Linkedin class="w-5 h-5" /></a>
+                </div>
+            </div> -->
             </div>
-            <div class="relative group">
-                <svg
-                    class="absolute -inset-[2px] w-[calc(100%+4px)] h-[calc(100%+4px)] -rotate-90 opacity-0 group-hover:opacity-100"
-                >
-                    <circle
-                        class="fill-none stroke-blue-500 stroke-2 transition-[stroke-dashoffset] duration-1000 ease-in-out"
-                        cx="50%"
-                        cy="50%"
-                        r="calc(50% - 2px)"
-                        stroke-dasharray="1000"
-                        stroke-dashoffset="1000"
-                        stroke-linecap="round"
-                        style="stroke-width: 4px"
-                        data-circle
+            <div>
+
+                <div class="relative group">
+                    <svg
+                        class="absolute -inset-[2px] w-[calc(100%+4px)] h-[calc(100%+4px)] -rotate-90 opacity-0 group-hover:opacity-100"
+                    >
+                        <circle
+                            class="fill-none stroke-blue-500 stroke-2 transition-[stroke-dashoffset] duration-1000 ease-in-out"
+                            cx="50%"
+                            cy="50%"
+                            r="calc(50% - 2px)"
+                            stroke-dasharray="1000"
+                            stroke-dashoffset="1000"
+                            stroke-linecap="round"
+                            style="stroke-width: 4px"
+                            data-circle
+                        />
+                    </svg>
+                    <img
+                        class="border-[#333333] border shadow-2xl w-[120px] h-[120px] sm:w-[170px] sm:h-[170px] object-cover rounded-full"
+                        src={mig}
+                        alt=""
                     />
-                </svg>
-                <img
-                    class="border-[#333333] border shadow-2xl w-[120px] h-[120px] sm:w-[170px] sm:h-[170px] object-cover rounded-full"
-                    src={mig}
-                    alt=""
-                />
+                </div>
+                <div class="flex gap-1 items-center justify-center pt-5">
+    
+                    <a class="text-black hover:text-blue-950" href="https://github.com/Andreas-DEV" target="_blank"><Github class="w-7 h-7" /></a>
+                    <a class="text-black hover:text-blue-950" href="https://www.linkedin.com/in/andreas-gr%C3%B8nbech-christensen-2497002b6/" target="_blank"><Linkedin class="w-7 h-7" /></a>
+                </div>
             </div>
+
+            
         </section>
 
         <!-- Projects -->
-        <div class="mt-8 sm:mt-12">
+        <div class="mb-10">
             <h2
-                class="font-medium text-3xl sm:text-4xl px-4 sm:px-0 select-none"
+                class="font-medium text-3xl sm:text-4xl px-4 sm:px-0 select-none md:mt-0 mt-6"
             >
                 Projects
             </h2>
@@ -79,6 +97,8 @@
                     <div
                         class="flex flex-col sm:flex-row sm:items-center gap-2 mb-2"
                     >
+                    <div class="flex items-center gap-2">
+
                         <span class="text-xl sm:text-2xl select-none">01</span>
                         <a
                             href="https://github.com/Andreas-DEV/stroem"
@@ -101,6 +121,7 @@
                             <Icon icon="devicon:tailwindcss" />
                         </div>
                     </div>
+                    </div>
                     <p>Mit eksamens projekt, som jeg fik et 12 for.</p>
                 </div>
 
@@ -109,6 +130,8 @@
                     <div
                         class="flex flex-col sm:flex-row sm:items-center gap-2 mb-2"
                     >
+                    <div class="flex items-center gap-2">
+
                         <span class="text-xl sm:text-2xl select-none">02</span>
 
                         <a
@@ -132,6 +155,7 @@
                             <Icon icon="devicon:tailwindcss" />
                         </div>
                     </div>
+                    </div>
                     <p class="mb-2">
                         Sjov lille app som tjekker en nummerplade op i mod
                         tjekbil's eget API.
@@ -151,6 +175,8 @@
                     <div
                         class="flex flex-col sm:flex-row sm:items-center gap-2 mb-2"
                     >
+                    <div class="flex items-center gap-2">
+                        
                         <span class="text-xl sm:text-2xl select-none">03</span>
 
                         <a
@@ -175,6 +201,7 @@
                             <Icon icon="devicon:tailwindcss" />
                         </div>
                     </div>
+                    </div>
                     <p>Grønbech Revision's officelle hjemmeside.</p>
                     <p class="mb-2">
                         Freelance opgave lavet under min skole periode.
@@ -194,6 +221,8 @@
                     <div
                         class="flex flex-col sm:flex-row sm:items-center gap-2 mb-2"
                     >
+                    <div class="flex items-center gap-2">
+                        
                         <span class="text-xl sm:text-2xl select-none">04</span>
 
                         <a
@@ -216,6 +245,7 @@
                             <Icon icon="logos:javascript" />
                             <Icon icon="devicon:tailwindcss" />
                         </div>
+                    </div>
                     </div>
                     <p>Dansk Super Rally's officielle hjemmeside</p>
                     <p class="mb-2">
