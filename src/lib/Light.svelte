@@ -24,7 +24,7 @@
     });
 </script>
 
-<div class="py-10">
+<div class="">
     <main class="max-w-screen-sm mx-auto px-4 sm:px-6">
         <!-- Hero Section -->
         <section
