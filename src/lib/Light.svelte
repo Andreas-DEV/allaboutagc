@@ -165,7 +165,7 @@
                             target="_blank"
                             class="hover:underline border flex px-2 pt-1 rounded-lg"
                             href="https://civil-tjek.vercel.app/"
-                            >Live Site <Icon icon="majesticons:open" /></a
+                            >Live Site <Icon class="ml-1" icon="majesticons:open" /></a
                         >
                     </div>
                 </div>
@@ -211,7 +211,7 @@
                             target="_blank"
                             class="hover:underline border flex px-2 pt-1 rounded-lg"
                             href="https://www.gronbechrevision.dk/"
-                            >Live Site <Icon icon="majesticons:open" /></a
+                            >Live Site <Icon class="ml-1" icon="majesticons:open" /></a
                         >
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                             target="_blank"
                             class="hover:underline border flex px-2 pt-1 rounded-lg"
                             href="https://www.dansksuperrally.dk/"
-                            >Live Site <Icon icon="majesticons:open" /></a
+                            >Live Site <Icon class="ml-1" icon="majesticons:open" /></a
                         >
                     </div>
                 </div>
