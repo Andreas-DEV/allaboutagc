@@ -8,27 +8,41 @@
 <section class="max-w-screen-sm mx-auto">
     <Light />
 
-    <div>
-        <h2 class="font-medium text-4xl py-10">Uddannelse</h2>
-
-        <div class="">
-
-            <div class="px-10">
-
-                <span class="text-4xl">Webudvikler</span>
-                <span class="">
-                    <a href={UdBevis} class="hover:underline text-sm" target="_blank">
-                        Uddannelsesbevis
-                    </a>
-                </span>
-            </div>
-            <div class="px-16 py-5 gap-4">
-                <a href="https://www.aarhustech.dk/" class="text-3xl hover:underline" target="_blank">Aarhus Tech</a>
+    <div class="px-4 sm:px-6">
+        <h2 class="font-medium text-3xl sm:text-4xl py-6 sm:py-10 select-none">Uddannelse</h2>
+    
+        <div class="space-y-4">
+            <div class="px-4 sm:px-10">
                 <div class="">
-                    <a href="https://videndjurs.dk/" class="text-3xl hover:underline" target="_blank">
+                    <span class="text-3xl sm:text-4xl">Webudvikler</span>
+                    <span class="text-sm">
+                        <a href={UdBevis} class="hover:underline" target="_blank">
+                            Uddannelsesbevis
+                        </a>
+                    </span>
+                </div>
+            </div>
+    
+            <div class="px-6 sm:px-16 py-3 sm:py-2">
+                <div class="flex flex-col sm:flex-row sm:items-center gap-2">
+                    <a 
+                        href="https://www.aarhustech.dk/" 
+                        class="text-2xl sm:text-3xl hover:underline" 
+                        target="_blank"
+                    >
+                        Aarhus Tech
+                    </a>
+                </div>
+    
+                <div class="">
+                    <a 
+                        href="https://videndjurs.dk/" 
+                        class="text-2xl sm:text-3xl hover:underline" 
+                        target="_blank"
+                    >
                         Viden Djurs
                     </a>
-                    <span class="text-xl">Grenå</span>
+                    <span class="text-md sm:text-xl">Grenå</span>
                 </div>
             </div>
         </div>
