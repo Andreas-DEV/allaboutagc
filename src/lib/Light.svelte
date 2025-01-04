@@ -37,7 +37,7 @@
                     Hej, mit navn er Andreas!<span class="wave">👋</span>
                 </h1>
                 <p class="text-sm">
-                    23 årig Full-stack Webudvikler fra Silkeborg
+                    24 årig Full-stack Webudvikler fra Silkeborg
                 </p>
                
             </div>
