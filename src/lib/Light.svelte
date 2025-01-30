@@ -3,6 +3,9 @@
     import Icon from "@iconify/svelte";
     import mig from "$lib/media/image6.jpeg";
 
+    import cv from "$lib/files/CV.pdf"
+    import ansogning from "$lib/files/Jobansøgning.pdf"
+
     import { onMount } from "svelte";
 
     onMount(() => {
@@ -39,6 +42,48 @@
                 <p class="text-sm">
                     24 årig Full-stack Webudvikler fra Silkeborg
                 </p>
+                <div class="flex justify-center gap-2 pr-8">
+                    <div class="flex items-center gap-2">
+
+                        
+                        <a
+                            href={cv}
+                            class="group relative flex items-center gap-2"
+                            target="_blank"
+                        >
+                            <h2
+                                class="text-blue-950 font-bold"
+                            >
+                                CV
+                            </h2>
+                            
+                            <span
+                                class="absolute bottom-0 left-0 h-[2px] w-0 bg-blue-950 transition-all duration-300 ease-out group-hover:w-full"
+                            ></span>
+                        </a>
+                        
+                    </div>
+                    <div class="flex items-center gap-2">
+
+                        
+                        <a
+                            href={ansogning}
+                            class="group relative flex items-center gap-2"
+                            target="_blank"
+                        >
+                            <h2
+                                class="text-blue-950 font-bold"
+                            >
+                                Ansøgning
+                            </h2>
+                            
+                            <span
+                                class="absolute bottom-0 left-0 h-[2px] w-0 bg-blue-950 transition-all duration-300 ease-out group-hover:w-full"
+                            ></span>
+                        </a>
+                       
+                    </div>
+                </div>
                
             </div>
             <div>
